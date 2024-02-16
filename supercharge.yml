@@ -1,0 +1,6 @@
+ignorePaths:
+    - resources/audio/*
+    - resources/css/*
+    - resources/fonts/*
+    - resources/img/*
+    - node_modules/*
