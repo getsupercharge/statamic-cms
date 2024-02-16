@@ -57,7 +57,7 @@ jobs:
         run: composer show -D
 
       - name: Execute tests with Supercharge
-        run: supercharge phpunit
+        run: vendor/bin/supercharge phpunit
         env:
           SUPERCHARGE_TOKEN: ${{ secrets.SUPERCHARGE_TOKEN }}
 
