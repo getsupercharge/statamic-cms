@@ -1,3 +1,5 @@
+project: statamic
+
 ignorePaths:
     - resources/audio/*
     - resources/css/*
